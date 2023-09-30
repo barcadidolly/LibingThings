@@ -1,0 +1,263 @@
+.footer-copyright{
+    color: white;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+}
+p{
+    color: grey;
+    padding: 5% 10%;
+}
+/*Title section*/
+#title{
+    background-color: #109448;
+    padding: 3% 15% 5%;
+}
+.brand-title{
+    width: 50%;
+}
+.links{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.nav-list{
+    padding: 0 18px;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.title-quote{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.btn-download{
+    margin: 5% 3% 5% 0;
+}
+.fab-icon{
+    margin-right: 8px;
+}
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    right: 30%;
+    position: absolute;
+    top: 100px;
+}
+
+/*Features section*/
+#features{
+    padding: 7% 14%;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+.fa-icon{
+    color: #93e9be;
+    margin: 1rem;
+}
+.fa-icon:hover{
+    color: #109448;
+}
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.feature-col{
+    padding: 5%;
+}
+/*Testimonial section*/
+#testimonials{
+    background-color: #93e9be;
+    text-align: center;
+    color: white;
+}
+.testimonial-image{
+    border-radius: 50%;
+    width: 10%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 14%;
+}
+/*Press section*/
+#press{
+    background-color: #93e9be;
+    text-align: center;
+    padding: 0 0 20px 0px;
+}
+.press-logo{
+    width: 10%;
+    margin: 20px 20px 20px 20px;
+}
+/*pricing section*/
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.price-heading, .price-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+/*cta section*/
+#cta{
+    background-color: #109448;
+    padding: 7% 14%;
+    text-align: center ;
+}
+.cta-title{
+   font-weight: 900;
+   font-size: 3.5rem;
+   line-height: 1.5;
+   color: white;
+}
+/*footer section*/
+#footer{
+    text-align: center;
+    padding: 3.5% 7%;
+}
+.foot-icon{
+    padding: 20px 10px ;
+}
+@media (max-width: 1024px){
+    .title-quote{
+        font-size: 3rem;
+    }
+    .title-img{
+        transform: rotate(0);
+    }
+    .btn-download{
+        margin-right: 6px;
+    }
+    .about-img{
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-radius: 50%;
+        margin: 20px;
+        left: 10px;
+    }
+
+}
+@media (max-width: 768px){
+    .title-img {
+        position: relative;
+        left: 0;
+        width: 100%;
+      }
+    
+      .about-img {
+        width: 40%;
+        height: auto;
+        position: relative;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    
+      }
+      .about-col {
+        position: relative;
+        padding: 5%;
+        margin-top: 30;
+      }
+    
+      .about-title {
+        font-size: 2rem;
+        font-weight: 900;
+        color: #109448;
+        margin-top: 10px;
+        clear: both;
+      }
+    
+    .column-one{
+        text-align: center;
+    }
+}
+@media (max-width: 425px){
+    .title-quote{
+        font-size: 2rem;
+    }
+    .btn-download{
+        margin: 5% 3% 5% 0;
+        width: 66%;
+        height: 33%;
+    }
+    .testimonial-text, .price-heading{
+        font-size: 1.25rem;
+    }
+    #pricing{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .price-heading, .price-text{
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+    .cta-title{
+        font-size: 1.5rem;
+    }
+    #title{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .links{
+        text-align: right;
+    }
+    .title-img {
+        height: 80%;
+        width: 80%;
+        left: 50px;
+    }
+    .about-img{
+        left: 100px;
+    }
+    
+}
+/*about us*/
+#about{
+    padding: 7% 7%;
+    margin-left: 10%;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    margin-left: 20px;
+}
+.about-title{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #109448;
+}
+.about-img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 50%;
+    margin: 20px;
+    left: 10px;
+}
+/*footer-about section*/
+#footer-about{
+    text-align: center;
+    padding: 3.5% 7%;
+    background-color: #109448;
+    color: white;
+}
+
+.foot-icon{
+    padding: 20px 10px ;
+}
